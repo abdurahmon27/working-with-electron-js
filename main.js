@@ -5,10 +5,10 @@ let win;
 
 function createWindow() {
   win = new BrowserWindow({
-    width: 500,
+    width: 800,
     height: 500,
-    x: 1600,
-    y: 800,
+    x: 1400,
+    y: 600,
     frame: false,
     transparent: true,
     resizable: false,
@@ -17,7 +17,7 @@ function createWindow() {
     webPreferences: {
       nodeIntegration: true,
       contextIsolation: false,
-      preload: path.join(__dirname, 'preload.js'),
+       preload: path.join(app.getAppPath(), 'preload.js'),
     },
   });
 
