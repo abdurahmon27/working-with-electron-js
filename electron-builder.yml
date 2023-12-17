@@ -1,0 +1,33 @@
+appId: com.example.widgetapp
+productName: SimpleWidget
+directories:
+  output: dist
+files:
+  - "**/*"
+  - "!node_modules/.bin"
+  - "!src"
+  - "!test"
+  - "!*.md"
+  - "!*.yml"
+  - "!yarn.lock"
+  - "!package-lock.json"
+  - "!*.log"
+  - "!.gitignore"
+  - "!LICENSE"
+  - "!*.json"
+  - "!yarn-error.log"
+
+asar: true
+asarUnpack:
+  - someFolderToUnpack
+  - anotherFolderToUnpack
+
+win:
+  target: portable
+
+mac:
+  target: dmg
+
+linux:
+  target: AppImage
+  icon: "build/icon.png"
