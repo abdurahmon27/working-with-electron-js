@@ -4,5 +4,5 @@ node_modules/
 # Ignore the dist folder
 dist/
 
-#Ignoring .vscode
+# Ignore the .vscode folder
 .vscode/
