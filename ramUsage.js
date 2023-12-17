@@ -9,7 +9,7 @@ const updateRamUsage = () => {
     const usedMemoryGB = (usedMemory / Math.pow(1024, 3)).toFixed(1);
     const totalMemoryGB = (totalMemory / Math.pow(1024, 3)).toFixed(1);
 
-    ramUsageElement.textContent = `RAM ishlatilishi: ${usedMemoryGB}/${totalMemoryGB}GB)`;
+    ramUsageElement.textContent = `RAM ishlatilishi: ${usedMemoryGB}/${totalMemoryGB}GB`;
   } catch (error) {
     console.error('Error getting RAM usage:', error);
   }
