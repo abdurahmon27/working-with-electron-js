@@ -9,7 +9,7 @@ Ensure you have Node.js installed on your system. [Download Node.js](https://nod
 ## Getting Started
 
 ```bash
-git clone https://github.com/your-username/working-with-electron-js.git
+git clone https://github.com/abdurahmon27/working-with-electron-js.git
 cd working-with-electron-js
 npm install
 npm run start
